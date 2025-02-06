@@ -1,0 +1,103 @@
+$primary-margin: 1rem;
+
+$primary-font-size: 15px;
+$small-font-size: 13px;
+$medium-font-size: 17px;
+$big-font-size: 19px;
+
+$primary-color: #1890FF;
+$primary-font-color: #006eff;
+$primary-background-color: #ffffff;
+$secondary-background-color: #f1f3f5;
+$grey-color: #e3e3e3;
+
+.seller {
+  .seller-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: "0 20px";
+    font-size: 12px;
+
+    .seller-nav {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0 10px;
+      overflow: visible;
+    }
+  }
+
+  .content-section {
+    background-color: $secondary-background-color;
+    color: $primary-font-color;
+
+    .content-container {
+      padding: 20px 30px;
+      border: 1px solid $grey-color;
+      border-radius: 10px;
+      border-right: none;
+      border-bottom: none;
+      box-shadow: 0 4px 6px rgba(177, 177, 177, 0.1);
+      background-color: $primary-background-color;
+
+      .img-item {
+        width: 100px;
+      }
+
+      .star-block {
+        display: flex;
+        align-items: center;
+        .star {
+          color: yellow;
+        }
+      }
+      .seller-toolbar {
+        display: flex;
+        justify-content: center;
+
+        .seller-search {
+          width: 75vw;
+        }
+
+        .seller-select {
+          min-width: 10vw;
+        }
+      }
+
+      .seller-order-items {
+        margin: 10px 0px;
+
+        .seller-order-item-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px solid #f0f0f0;
+
+          .order-username {
+            margin-left: 5px;
+          }
+        }
+
+        .seller-order-item-product {
+          display: flex;
+          align-items: center;
+
+          .order-item-product {
+            margin: 10px;
+            display: flex;
+            align-items: center;
+          }
+        }
+
+
+
+      }
+
+      .seller-table-title {
+        @extend .seller-order-item-header;
+      }
+
+    }
+  }
+}

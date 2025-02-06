@@ -1,0 +1,82 @@
+.seller .seller-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: "0 20px";
+  font-size: 12px;
+}
+
+.seller .seller-header .seller-nav {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 10px;
+  overflow: visible;
+}
+
+.seller .content-section {
+  background-color: #f1f3f5;
+  color: #006eff;
+}
+
+.seller .content-section .content-container {
+  padding: 20px 30px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  border-right: none;
+  border-bottom: none;
+  box-shadow: 0 4px 6px rgba(177, 177, 177, 0.1);
+  background-color: #ffffff;
+}
+
+.seller .content-section .content-container .img-item {
+  width: 100px;
+}
+
+.seller .content-section .content-container .star-block {
+  display: flex;
+  align-items: center;
+}
+
+.seller .content-section .content-container .star-block .star {
+  color: yellow;
+}
+
+.seller .content-section .content-container .seller-toolbar {
+  display: flex;
+  justify-content: center;
+}
+
+.seller .content-section .content-container .seller-toolbar .seller-search {
+  width: 75vw;
+}
+
+.seller .content-section .content-container .seller-toolbar .seller-select {
+  min-width: 10vw;
+}
+
+.seller .content-section .content-container .seller-order-items {
+  margin: 10px 0px;
+}
+
+.seller .content-section .content-container .seller-order-items .seller-order-item-header, .seller .content-section .content-container .seller-order-items .seller-table-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.seller .content-section .content-container .seller-order-items .seller-order-item-header .order-username, .seller .content-section .content-container .seller-order-items .seller-table-title .order-username {
+  margin-left: 5px;
+}
+
+.seller .content-section .content-container .seller-order-items .seller-order-item-product {
+  display: flex;
+  align-items: center;
+}
+
+.seller .content-section .content-container .seller-order-items .seller-order-item-product .order-item-product {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}

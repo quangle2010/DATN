@@ -1,0 +1,11 @@
+.aside-left {
+        padding: 10px;
+        background: #fff;
+        border-radius: 10px;
+        .menu-aside{
+            .ant-menu-item {
+                padding-left: 0px;
+                margin: 0;
+            }
+        }
+    }

@@ -1,0 +1,259 @@
+#main_content_user {
+        margin: 50px 0;
+        min-height: calc(100vh-160px);
+
+
+}
+
+
+
+.small-badge {
+        font-size: 0.75rem;
+        padding: 0.25em 0.4em;
+}
+
+/* Style for carousel arrows */
+.react-multiple-carousel__arrow {
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Arrow background color */
+        color: white;
+        /* Arrow color */
+        border-radius: 50%;
+        /* Make arrows circular */
+        padding: 10px;
+        /* Size of the arrows */
+        z-index: 1;
+        /* Ensure the arrows are on top of other elements */
+}
+
+.react-multiple-carousel__arrow--left {
+        left: 10px;
+        /* Position the left arrow outside */
+}
+
+.react-multiple-carousel__arrow--right {
+        right: 10px;
+        /* Position the right arrow outside */
+}
+
+.carousel-item-card {
+        padding: 5px;
+        /* Margin between carousel items */
+}
+
+
+
+
+.package-label {
+        position: absolute;
+        top: -15px;
+        /* Đẩy khung lên trên */
+        left: 15px;
+        /* Canh lề trái */
+        background-color: white;
+        /* Màu xanh Bootstrap */
+        color: black;
+        padding: 5px 0px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 5px;
+}
+
+/*
+
+*/
+
+.wishlist-container {
+        text-align: center;
+        margin-top: 20px;
+}
+
+.wishlist-empty {
+        background-color: #f8f9fa;
+        padding: 40px 20px;
+        border-radius: 8px;
+}
+
+.wishlist-icon {
+        font-size: 4rem;
+        color: #0d6efd;
+        margin-bottom: 20px;
+}
+
+.highlight {
+        color: red;
+        font-weight: bold;
+}
+
+button.btn-warning {
+        margin-top: 20px;
+}
+
+/*
+
+*/
+
+
+/*
+
+*/
+.account-info-container {
+        margin-top: 20px;
+}
+
+.profile-picture-section {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+}
+
+.profile-picture {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #e9ecef;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+}
+
+.profile-picture i {
+        font-size: 2rem;
+}
+
+.contact-info-section,
+.security-section,
+.social-links-section {
+        margin-bottom: 20px;
+}
+
+.contact-info-section h6,
+.security-section h6,
+.social-links-section h6 {
+        margin-bottom: 10px;
+}
+
+
+/*
+
+*/
+
+
+/*
+
+*/
+
+.aside-left {
+        padding: 10px;
+        background: #fff;
+        border-radius: 10px
+}
+
+.aside-left .menu-aside .ant-menu-item {
+        padding-left: 0px;
+        margin: 0
+}
+
+/*
+
+*/
+
+.commitment-bar .commitment-item {
+        font-size: 13px
+}
+
+.react-multiple-carousel__arrow {
+        background-color: rgba(68, 68, 68, 0.5);
+        border-radius: 50%;
+        color: white;
+        font-size: 24px;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10
+}
+
+.react-multiple-carousel__arrow--left {
+        left: 10px
+}
+
+.react-multiple-carousel__arrow--right {
+        right: 10px
+}
+
+.home-content .banner .banner-img {
+        border-radius: 15px
+}
+
+.home-content .brands .brand-title {
+        font-weight: bold
+}
+
+.home-content .brands .brand-home-icon {
+        border-radius: 5px;
+        width: 50px;
+        height: 50px
+}
+
+.home-content .top-deal .top-deal-title {
+        color: #f5222d;
+        font-weight: bold
+}
+
+.home-content .top-deal .product-item .product-item-title {
+        font-size: 13px
+}
+
+.home-content .top-deal .product-item .product-item-rate {
+        font-size: 13px
+}
+
+.home-content .top-deal .product-item .product-item-price .price-actual {
+        font-size: 16px;
+        color: #f5222d
+}
+
+.home-content .top-deal .product-item .product-item-price .price-delete {
+        color: #8c8c8c
+}
+
+.user-container .search-btn {
+        width: 95%
+}
+
+@media (min-width: 768px) {
+        .user-container {
+                max-width: 720px
+        }
+}
+
+@media (min-width: 1024px) {
+        .user-container {
+                max-width: 1024px
+        }
+}
+
+@media (min-width: 1200px) {
+        .user-container {
+                max-width: 1400px
+        }
+}
+
+@media (min-width: 1920px) {
+        .user-container {
+                max-width: 2000px
+        }
+}
+
+.mkt-bar {
+        font-size: 13px;
+        font-weight: 600;
+        background-color: #effff4;
+        color: #00ab56
+}

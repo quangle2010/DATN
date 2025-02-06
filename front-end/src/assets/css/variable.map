@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variable.css",
+	"sources": [
+		"../scss/variable.scss"
+	],
+	"sourcesContent": [
+		"//font family\r\n$font-family-primary: \"Roboto\", Arial, sans-serif;\r\n$font-family-secondary: \"Radley\", serif;\r\n\r\n//font size\r\n$font-size: 14px;\r\n$font-size-10: 10px;\r\n$font-size-12: 12px;\r\n$font-size-16: 16px;\r\n\r\n\r\n//color\r\n$color-primary: #da251c;\r\n$color-sale: #f90;\r\n$color-button: #0857ea;\r\n$color-btn-hover: #0071c4;\r\n$color-compare: #3071c4;\r\n$color-star: #ffb909;\r\n$color-text: #333;\r\n$color-text-primary: #0071c4;\r\n$color-gray: #999999;\r\n$color-background-primary:#eee;\r\n$color-white: #fff;\r\n$color-yellow:#ff0;\r\n\r\n\r\n//font weight\r\n$font-weight-light: 300;\r\n$font-weigh-regular: 400;\r\n$font-weight-medium: 500;\r\n$font-weight-semi-bold: 600;\r\n$font-weight-bold: 700;\r\n$font-weight-heavy: 800;\r\n$font-weight-black: 900;\r\n//screen device\r\n$small-mobile: \"screen and (max-width: 375.98px)\";\r\n$mobile: \"screen and (max-width: 575.98px)\";\r\n$tablet: \"screen and (max-width: 767.98px)\";\r\n$moblet: \"screen and (max-width: 991.98px)\";\r\n$desktop: \"screen and (max-width: 1199.98px)\";\r\n$large-desktop: \"screen and (max-width: 1399.98px)\";\r\n\r\n//background-color\r\n$background-gray: #f0f0f0;\r\n\r\n\r\n//width height\r\n$width-24: 24px;\r\n$height-24: 24px;"
+	],
+	"names": [],
+	"mappings": ""
+}
